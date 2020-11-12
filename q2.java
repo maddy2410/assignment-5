@@ -37,7 +37,7 @@ public class q2 extends Thread
         t10.join();
         }catch(Exception e){}
         long end = System.currentTimeMillis();
-        System.out.println(num + " has maximum " + maxDiv + " no of divisors.");
+        System.out.println(num + " has maximum no of divisors =  " + maxDiv );
         System.out.println("Total time elapsed: " + (end-start));
     }
 
