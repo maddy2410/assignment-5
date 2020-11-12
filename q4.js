@@ -26,12 +26,11 @@ function christmasTree(){
         } 
         finaltree += str +"<BR>";
     } 
-    //var h1 = document.createElement('h1');
+    
     document.getElementById("p").innerHTML = finaltree;
-    //document.body.appendChild(h1);
 }
 
-// Run using node
+
 
 let height_of_tree = 10;
 christmasTreelocal(height_of_tree)
